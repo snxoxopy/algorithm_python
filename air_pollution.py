@@ -53,6 +53,7 @@ def run_machine(rr, cc, dirr):  # 공기청정기 작동
                 break
             rr, cc = nr, nc
 
+
 # main
 for _ in range(t):
     # 확산
