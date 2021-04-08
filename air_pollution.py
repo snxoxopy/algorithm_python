@@ -1,5 +1,9 @@
 import sys
+<<<<<<< HEAD
 from copy import deepcopy
+=======
+
+>>>>>>> 45dc6b3e15701ce208120eeb7d7cba3f5c18b034
 sys.stdin = open('input.txt', 'r')
 
 # input
@@ -8,7 +12,14 @@ arr = []
 for _ in range(r):
     arr.append(list(map(int, input().split())))
 
+<<<<<<< HEAD
 tmp_arr = []
+=======
+#시간 초과의 이유로 사용하지 않음
+#dr = [0, 1, 0, -1]
+#dc = [1, 0, -1, 0]
+
+>>>>>>> 45dc6b3e15701ce208120eeb7d7cba3f5c18b034
 pos_machine = []
 
 # system
@@ -50,6 +61,7 @@ def spread_dust(): #확산1
 #         for j in range(c):
 #             arr[i][j] += tmp_dust[i][j]
 
+<<<<<<< HEAD
 def run_machine(rr, cc, diff):  # 공기청정기 작동
         cp_arr = deepcopy(arr)
         dr = (1, -1, 0, 0)
@@ -66,6 +78,28 @@ def run_machine(rr, cc, diff):  # 공기청정기 작동
                     break
                 rr, cc = nr, nc
                 #print(cp_arr)
+=======
+def run_machine(start, dir):
+    if dir == -1: # 공기청소기 동작 - 반시계
+        for i in range(start - 1, 0, -1):
+            arr[i][0] = arr[i-1][0]
+        for j in range(0, c-1):
+            arr[0][j] = arr[0][j+1]
+        for i in range(0, start):
+            arr[i][c-1] = arr[i+1][c-1]
+        for j in range(c-1, 1, -1):
+            arr[start][j] = arr[start][j-1]
+    else: # 공기청소기 동작 - 시계
+        for i in range(start + 1, r - 1):
+            arr[i][0] = arr[i + 1][0]
+        for j in range(0, c - 1):
+            arr[r - 1][j] = arr[r - 1][j + 1]
+        for i in range(r - 1, start, -1):
+            arr[i][c - 1] = arr[i - 1][c - 1]
+        for j in range(c - 1, 1, -1):
+            arr[start][j] = arr[start][j - 1]
+    arr[start][1] = 0
+>>>>>>> 45dc6b3e15701ce208120eeb7d7cba3f5c18b034
 
 # main
 for _ in range(t):
@@ -74,6 +108,7 @@ for _ in range(t):
 
     # 공기청소기 동작 - 반시계
     print('반시계')
+<<<<<<< HEAD
     print(arr)
     tmp_arr = run_machine(pos_machine[0], 1, (2, 1, 3, 0))
     arr = deepcopy(tmp_arr)
@@ -84,6 +119,13 @@ for _ in range(t):
     tmp_arr = run_machine(pos_machine[1], 1, (2, 0, 3, 1))
     arr = deepcopy(tmp_arr)
     arr[pos_machine[1]][1] = 0
+=======
+    run_machine(pos_machine[0], -1)
+
+    # 공기청소기 동작 - 시계
+    print('시계')
+    run_machine(pos_machine[1], 1)
+>>>>>>> 45dc6b3e15701ce208120eeb7d7cba3f5c18b034
 
 # output
 answer = sum(list(sum(arr, []))) + 2
