@@ -8,7 +8,7 @@
 
 ### Lv.1
 
-1. 키패드 누르기
+1. [키패드 누르기](https://github.com/suzinee/algorithm_python/blob/prgrms/LV1/push_the_keypad.py)
 2. 신규 아이디 추천
 3. [1차] 비밀지도
 4. 크레인 인형뽑기 게임
