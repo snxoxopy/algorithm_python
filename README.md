@@ -4,6 +4,9 @@
 [![Solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=snoo_py)](https://solved.ac/profile/snoo_py)  
 [![solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=snoo_py)](https://solved.ac/profile/snoo_py)
 
+### DFS
+1. [19236: 청소년 상어](https://github.com/suzinee/algorithm_python/blob/dfs/a_teenager_shark_2.py)
+
 ## programmers
 
 ### Lv.1
