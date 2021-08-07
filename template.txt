@@ -1,7 +1,7 @@
 """
 ---
-title:  "[Python] BOJ_14888 연산자 끼워넣기"
-excerpt: "https://www.acmicpc.net/problem/14888"
+title:  "[Python] BOJ_Problem_Title"
+excerpt: "https://www.acmicpc.net/problem/"
 toc: true
 toc_sticky: true
 toc_label: "Contents"
@@ -9,8 +9,6 @@ categories:
   - algorithm
 tags:
   - BOJ
-  - backtracking
-  - brute-force
 ---
 
 문제이해: 분
