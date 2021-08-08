@@ -20,6 +20,7 @@
 4. [1966: 프린터 큐](https://github.com/suzinee/algorithm_python/blob/data_structure/queue_printq.py)
 5. [10866: 덱](https://github.com/suzinee/algorithm_python/blob/data_structure/queue_deque.py)
 6. [1021: 회전하는 큐](https://github.com/suzinee/algorithm_python/blob/data_structure/queue_rotate_q.py)
+7. [5430: AC](https://github.com/suzinee/algorithm_python/blob/data_structure/queue_ac.py)
 
 ### DFS
 1. [19236: 청소년 상어](https://github.com/suzinee/algorithm_python/blob/dfs/a_teenager_shark_2.py)
