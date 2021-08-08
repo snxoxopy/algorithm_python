@@ -31,10 +31,8 @@ for _ in range(p):
         if isReverse: q.reverse()
         print("[", end='')
         for i in range(len(q)):
-            if i == len(q)-1:
-                print(str(q[i]),end='')
-            else:
-                print(q[i],end=',')
+            if i == len(q)-1: print(str(q[i]),end='')
+            else: print(q[i],end=',')
         print("]")
 
 t_end = timeit.default_timer()
