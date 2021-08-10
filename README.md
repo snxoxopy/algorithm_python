@@ -24,9 +24,11 @@
 
 ### DFS
 1. [19236: 청소년 상어](https://github.com/suzinee/algorithm_python/blob/dfs/a_teenager_shark_2.py)
+2. [1260: DFS와BFS](https://github.com/suzinee/algorithm_python/blob/dfs/dfs_dfsbfs_boj1260.py)
 
 ### BFS
 1. [14503: 로봇 청소기](https://github.com/suzinee/algorithm_python/blob/bfs/a_vacuum_cleaner.py)
+2. [1260: DFS와BFS](https://github.com/suzinee/algorithm_python/blob/bfs/bfs_dfsbfs_boj1260.py)
 
 ## programmers
 
