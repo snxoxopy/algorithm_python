@@ -18,6 +18,7 @@ tags:
 구현: 분
 Debug: 분
 참고자료
+
 """
 
 import sys
@@ -51,21 +52,5 @@ def dfs(graph, start, visited):
     for i in graph[start]:
         if not visited[i]: dfs(graph, i, visited)
 
-# BFS
-# queue 사용, 먼저 들어온 node와 간선으로 연결된 node 순으로 방문
-def bfs(graph, start, visited):
-    visited[start] = True
-    q = deque([start])
-    while q:
-        node = q.popleft()
-        print(node, end=" ")
-        for i in graph[node]:
-            if not visited[i]:
-                q.append(i)
-                visited[i] = True
-
 visited = [False for _ in range(n+1)]
 dfs(graph, v, visited)
-visited = [False for _ in range(n+1)]
-print()
-bfs(graph, v, visited)
