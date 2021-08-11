@@ -26,6 +26,7 @@
 
 ### BFS
 1. [14503: 로봇 청소기](https://github.com/suzinee/algorithm_python/blob/bfs/a_vacuum_cleaner.py)
+2. [2606: 바이러스](https://github.com/suzinee/algorithm_python/blob/bfs/virus_boj2606.py)
 
 ## programmers
 
