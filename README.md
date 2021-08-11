@@ -20,13 +20,19 @@
 4. [1966: 프린터 큐](https://github.com/suzinee/algorithm_python/blob/data_structure/queue_printq.py)
 5. [10866: 덱](https://github.com/suzinee/algorithm_python/blob/data_structure/queue_deque.py)
 6. [1021: 회전하는 큐](https://github.com/suzinee/algorithm_python/blob/data_structure/queue_rotate_q.py)
+7. [5430: AC](https://github.com/suzinee/algorithm_python/blob/data_structure/queue_ac.py)
 
 ### DFS
 1. [19236: 청소년 상어](https://github.com/suzinee/algorithm_python/blob/dfs/a_teenager_shark_2.py)
+2. [1260: DFS와BFS](https://github.com/suzinee/algorithm_python/blob/dfs/dfs_dfsbfs_boj1260.py)
 
 ### BFS
 1. [14503: 로봇 청소기](https://github.com/suzinee/algorithm_python/blob/bfs/a_vacuum_cleaner.py)
-2. [2606: 바이러스](https://github.com/suzinee/algorithm_python/blob/bfs/virus_boj2606.py)
+2. [1260: DFS와BFS](https://github.com/suzinee/algorithm_python/blob/bfs/bfs_dfsbfs_boj1260.py)   
+3. [2606: 바이러스](https://github.com/suzinee/algorithm_python/blob/bfs/virus_boj2606.py)
+
+
+
 
 ## programmers
 
