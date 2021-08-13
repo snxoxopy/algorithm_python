@@ -31,7 +31,7 @@
 1. [14503: 로봇 청소기](https://github.com/suzinee/algorithm_python/blob/bfs/a_vacuum_cleaner.py)
 2. [1260: DFS와BFS](https://github.com/suzinee/algorithm_python/blob/bfs/bfs_dfsbfs_boj1260.py)   
 3. [2606: 바이러스](https://github.com/suzinee/algorithm_python/blob/bfs/virus_boj2606.py)
-
+4. [1012: 유기농 배추](https://github.com/suzinee/algorithm_python/blob/bfs/organic_cabbages.py)
 
 
 
