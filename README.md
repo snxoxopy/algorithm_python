@@ -32,6 +32,7 @@
 2. [1260: DFS와BFS](https://github.com/suzinee/algorithm_python/blob/bfs/bfs_dfsbfs_boj1260.py)   
 3. [2606: 바이러스](https://github.com/suzinee/algorithm_python/blob/bfs/virus_boj2606.py)
 4. [1012: 유기농 배추](https://github.com/suzinee/algorithm_python/blob/bfs/organic_cabbages.py)
+5. [2178: 미로탐색](https://github.com/suzinee/algorithm_python/blob/bfs/bfs_a_maze_boj2178.py)
 
 
 
