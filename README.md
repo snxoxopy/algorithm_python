@@ -33,7 +33,11 @@
 3. [2606: 바이러스](https://github.com/suzinee/algorithm_python/blob/bfs/virus_boj2606.py)
 4. [1012: 유기농 배추](https://github.com/suzinee/algorithm_python/blob/bfs/organic_cabbages.py)
 5. [2178: 미로탐색](https://github.com/suzinee/algorithm_python/blob/bfs/bfs_a_maze_boj2178.py)
+6. [7576: 토마토](https://github.com/suzinee/algorithm_python/blob/bfs/bfs_tomato_boj7576.py)
+7. [7569: 토마토](https://github.com/suzinee/algorithm_python/blob/bfs/bfs_tomato_boj7569.py)
 
+### Implementation
+1. [15683: 감시](https://github.com/suzinee/algorithm_python/blob/implementation/observation.py)
 
 
 ## programmers
