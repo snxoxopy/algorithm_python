@@ -38,7 +38,7 @@
 
 ### Implementation
 1. [15683: 감시](https://github.com/suzinee/algorithm_python/blob/implementation/observation.py)
-
+2. [17140: 이차원 배열과 연산](https://github.com/suzinee/algorithm_python/blob/implementation/operate_2darr_boj17140.py)
 
 ## programmers
 
