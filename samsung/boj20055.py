@@ -1,6 +1,6 @@
 """
 ---
-title:  "[Python] BOJ_20055_청소년 상어"
+title:  "[Python] BOJ_20055_컨베이어 벨트 위의 로봇"
 excerpt: "https://www.acmicpc.net/problem/20055"
 toc: true
 toc_sticky: true
