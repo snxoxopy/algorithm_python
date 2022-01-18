@@ -5,7 +5,7 @@
 [![solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=snoo_py)](https://solved.ac/profile/snoo_py)
 
 ### Recursion
-1. [2447: 별 찍기 - 10](https://github.com/snxoxopy/algorithm_python/blob/recursion/boj2447.py)
+1. [2447: 별 찍기 - 10](https://github.com/snxoxopy/algorithm_python/blob/recursion/boj2447.py)  
 
 ### Data Structure
 #### 1. Stack
