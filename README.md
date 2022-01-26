@@ -6,6 +6,8 @@
 
 ### Recursion
 1. [2447: 별 찍기 - 10](https://github.com/snxoxopy/algorithm_python/blob/recursion/boj2447.py)  
+2. [11729: 하노이의 탑 이동 순서](https://github.com/snxoxopy/algorithm_python/blob/recursion/boj11729.py)  
+
 
 ### Data Structure
 #### 1. Stack
