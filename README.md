@@ -8,6 +8,8 @@
 1. [2447: 별 찍기 - 10](https://github.com/snxoxopy/algorithm_python/blob/recursion/boj2447.py)  
 2. [11729: 하노이의 탑 이동 순서](https://github.com/snxoxopy/algorithm_python/blob/recursion/boj11729.py)  
 
+### Brute-force
+1. [1018: 체스판 다시 칠하기](https://github.com/snxoxopy/algorithm_python/tree/brute-force)  
 
 ### Data Structure
 #### 1. Stack
