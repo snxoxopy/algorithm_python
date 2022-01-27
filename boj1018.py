@@ -42,6 +42,6 @@ for i in range(n - 7):      # 전체 행 탐색
                     else: bi += 1
         min_value.append(wi)
         min_value.append(bi)
-        print(min_value)    # 바꿀 필요가 없다면, wi or bi 값이 증가하지 않으므로 0을 반환한다.
+        #print(min_value)    # 바꿀 필요가 없다면, wi or bi 값이 증가하지 않으므로 0을 반환한다.
 
 print(min(min_value))
