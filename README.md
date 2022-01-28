@@ -9,7 +9,9 @@
 2. [11729: 하노이의 탑 이동 순서](https://github.com/snxoxopy/algorithm_python/blob/recursion/boj11729.py)  
 
 ### Brute-force
-1. [1018: 체스판 다시 칠하기](https://github.com/snxoxopy/algorithm_python/tree/brute-force)  
+1. [1018: 체스판 다시 칠하기](https://github.com/snxoxopy/algorithm_python/tree/brute-force/boj1018.py)  
+2. [1436: 영화감독 숌](https://github.com/snxoxopy/algorithm_python/blob/brute-force/boj1436.py)  
+
 
 ### Data Structure
 #### 1. Stack
