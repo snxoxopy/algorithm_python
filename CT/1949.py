@@ -1,73 +1,63 @@
-from collections import deque
+# 문제: https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq&categoryId=AV5PoOKKAPIDFAUq&categoryType=CODE&problemTitle=&orderBy=RECOMMEND_COUNT&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1
+# 참고: https://chelseashin.tistory.com/2
+
 import sys
 
 sys.stdin = open("sample_input.txt", "r")
 
-T = int(input())
-
-n, k = map(int, input().split())
-# print(n, k)
-arr = []
-for _ in range(n):
-    arr.append(list(map(int, input().split())))
-
-# print(arr)
-
-# max_num 좌표 max_pos
-max_num, q_pos = 0, deque()
-
-max_num = max(max(arr[:]))
-# print(max_num)
-
-for r in range(n):
-    for c in range(n):
-        if arr[r][c] == max_num:
-            q_pos.append((r, c))
-# print(q_pos)
-
-def is_k(k, arr, nr, nc, target):
-    global k_cnt
-    if arr[nr][nc] - k < target and k_cnt == 1:
-        arr[nr][nc] -= k
-        k_cnt = 0
-        return True
-    return False
-
-dr = (0, -1, 0, 1)
-dc = (1, 0, -1, 0)
-
 
 # dfs
-
-def dfs(_r, _c, arr, k, answer, max_ans, visited):
-    # q = deque((r, c))
-
+dr = (0, -1, 0, 1)
+dc = (1, 0, -1, 0)
+def dfs(_r, _c, chance):
+    global max_num, visited
+    max_num = max(max_num, visited[_r][_c])
     for d in range(4):
         nr, nc = _r + dr[d], _c + dc[d]
+        # target = arr[_r][_c]
         if -1 < nr < n and -1 < nc < n and not visited[nr][nc]:
-            if arr[nr][nc] < target or is_k(k, arr, nr, nc, target):
-                # answer += 1
-                visited[nr][nc] = 1
-                dfs(nr, nc, arr, k, answer, max_ans, visited)
+            if arr[nr][nc] < arr[_r][_c]:
+                visited[nr][nc] = visited[_r][_c] + 1
+                dfs(nr, nc, chance)
                 visited[nr][nc] = 0
-                # answer -= 1
-        # print(sum([sum(i) for i in visited]))
-        max_ans = max(sum([sum(i) for i in visited]), max_ans)
-    return max_ans
+            elif chance and arr[nr][nc] - k < arr[_r][_c]:
+                tmp = arr[nr][nc]
+                arr[nr][nc] = arr[_r][_c] - 1
+                visited[nr][nc] = visited[_r][_c] + 1
+                dfs(nr, nc, chance - 1)
+                visited[nr][nc] = 0
+                arr[nr][nc] = tmp
 
 
-max_num = 0
-for r, c in q_pos:
-    target = arr[r][c]
-    q = deque([[r, c]]) # 등산로 길이 계산 좌표
+# main
+T = int(input())
+for test_case in range(1, T + 1):
+    # output
+    max_num = 0
+
+    # input
+    n, k = map(int, input().split())
+    # print(n, k)
+    arr = []
+    max_top = 0
+    for i in range(n):
+        arr.append(list(map(int, input().split())))
+        for j in range(n):
+            if arr[i][j] > max_top: max_top = arr[i][j]
+
+    # print(arr)
+
+    # max_top: 정상
+    # max_top = max(max(arr)) -> 오답 주의 사용 금지
+    # print(max_top)
+
     visited = [[0] * n for _ in range(n)]
+    # k_cnt = 1
+    for r in range(n):
+        for c in range(n):
+            if arr[r][c] == max_top:
+                visited[r][c] = 1
+                dfs(r, c, 1)
+                visited[r][c] = 0
 
-    visited[r][c] = 1
-    k_cnt = 1
-    answer = 0
-    max_num = max(max_num, dfs(r, c, arr, k, answer, 0, visited))
-
-
-
-print(max_num)
-
+    print("#{} {}".format(test_case, max_num))
