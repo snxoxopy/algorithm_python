@@ -51,6 +51,9 @@
 
 ## programmers
 
+### Lv.0
+1. [최빈값 구하기](https://github.com/snxoxopy/algorithm_python/blob/prgrms/LV0/120812_%EC%B5%9C%EB%B9%88%EA%B0%92_%EA%B5%AC%ED%95%98%EA%B8%B0.py)
+
 ### Lv.1
 
 1. [키패드 누르기](https://github.com/suzinee/algorithm_python/blob/prgrms/LV1/push_the_keypad.py)
