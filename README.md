@@ -53,6 +53,7 @@
 
 ### Lv.0
 1. [최빈값 구하기](https://github.com/snxoxopy/algorithm_python/blob/prgrms/LV0/120812_%EC%B5%9C%EB%B9%88%EA%B0%92_%EA%B5%AC%ED%95%98%EA%B8%B0.py)
+2. [짝수는 싫어요](https://github.com/snxoxopy/algorithm_python/blob/prgrms/LV0/120813_%EC%A7%9D%EC%88%98%EB%8A%94_%EC%8B%AB%EC%96%B4%EC%9A%94.py)
 
 ### Lv.1
 
@@ -62,3 +63,6 @@
 4. 크레인 인형뽑기 게임
 5. 실패율
 6. [1차] 다트게임
+
+### LV.2
+1. [최솟값 만들기](https://github.com/snxoxopy/algorithm_python/blob/prgrms/LV2/12941_%EC%B5%9C%EC%86%9F%EA%B0%92_%EB%A7%8C%EB%93%A4%EA%B8%B0.py)
