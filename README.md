@@ -68,3 +68,7 @@
 ### LV.2
 1. [최솟값 만들기](https://github.com/snxoxopy/algorithm_python/blob/prgrms/LV2/12941_%EC%B5%9C%EC%86%9F%EA%B0%92_%EB%A7%8C%EB%93%A4%EA%B8%B0.py)
 2. [올바른 괄호](https://github.com/snxoxopy/algorithm_python/blob/prgrms/LV2/12909_%EC%98%AC%EB%B0%94%EB%A5%B8_%EA%B4%84%ED%98%B8.py)
+3. [이진 변환 반복하기](https://github.com/snxoxopy/algorithm_python/blob/prgrms/LV2/70129_%EC%9D%B4%EC%A7%84_%EB%B3%80%ED%99%98_%EB%B0%98%EB%B3%B5%ED%95%98%EA%B8%B0.py)
+
+### LV.3
+1. [야근 지수](https://github.com/snxoxopy/algorithm_python/blob/prgrms/LV3/12927_%EC%95%BC%EA%B7%BC_%EC%A7%80%EC%88%98.py)
