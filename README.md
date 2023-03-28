@@ -72,3 +72,4 @@
 
 ### LV.3
 1. [야근 지수](https://github.com/snxoxopy/algorithm_python/blob/prgrms/LV3/12927_%EC%95%BC%EA%B7%BC_%EC%A7%80%EC%88%98.py)
+2. [이중우선순위큐](https://github.com/snxoxopy/algorithm_python/blob/63ea3d7427e944c03e5f174cd42c196b82724e3f/LV3/42628_%EC%9D%B4%EC%A4%91%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%ED%81%90.py)
