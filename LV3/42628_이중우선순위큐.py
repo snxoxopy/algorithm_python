@@ -21,14 +21,12 @@ https://school.programmers.co.kr/learn/courses/30/lessons/42628/solution_groups?
 
 import heapq
 
-def solution(operations):
-    arr = []
-    q = []
-    for strr in operations:
-        arr.append(strr.split())
 
-    for oprt, oprnd in arr:
-        num = int(oprnd)
+def solution(operations):
+    q = []
+    for i in range(len(operations)):
+        cmd = operations[i].split()
+        oprt, num = cmd[0], int(cmd[1])
         if oprt == 'I':
             heapq.heappush(q, num)
         elif len(q) > 0:
@@ -52,10 +50,10 @@ def solution(operations):
 
 """
 정확성  테스트
-테스트 1 〉	통과 (0.03ms, 10.4MB)
-테스트 2 〉	통과 (0.02ms, 10.1MB)
-테스트 3 〉	통과 (0.03ms, 10.2MB)
-테스트 4 〉	통과 (0.02ms, 10.4MB)
-테스트 5 〉	통과 (0.03ms, 10.2MB)
-테스트 6 〉	통과 (0.03ms, 10.2MB)
+테스트 1 〉	통과 (0.04ms, 10.5MB)
+테스트 2 〉	통과 (0.03ms, 10.4MB)
+테스트 3 〉	통과 (0.04ms, 10.3MB)
+테스트 4 〉	통과 (0.02ms, 10.3MB)
+테스트 5 〉	통과 (0.03ms, 10.3MB)
+테스트 6 〉	통과 (0.04ms, 10.2MB)
 """
