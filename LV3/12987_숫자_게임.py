@@ -36,9 +36,5 @@ def solution(A, B):
                     answer += 1
                     qA.popleft()
                     break
-    else:
-        for i in range(len(A)):
-            if B[i] > A[i]:
-                answer += 1
 
     return answer
