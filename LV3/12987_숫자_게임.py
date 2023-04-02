@@ -1,3 +1,24 @@
+
+"""
+---
+title:  "[Python] PRGRMS_12987_숫자게임"
+excerpt: "https://school.programmers.co.kr/learn/courses/30/lessons/12987"
+toc: true
+toc_sticky: true
+toc_label: "Contents"
+categories:
+  - algorithm
+tags:
+  - PROGRAMMERS
+  - sort
+---
+
+문제 이해: 10분
+구현: 100분
+Debug: 분
+참고 자료:
+"""
+
 from collections import deque
 
 
