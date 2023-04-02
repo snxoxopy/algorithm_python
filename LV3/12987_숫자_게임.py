@@ -19,22 +19,14 @@ Debug: 분
 참고 자료:
 """
 
-from collections import deque
-
-
 def solution(A, B):
-    answer = 0
+    answer, j = 0, 0
     A = sorted(A)
     B = sorted(B)
-    qA = deque(A)
-    qB = deque(B)
-    if min(A) < max(B):
-        while qB:
-            numB = qB.popleft()
-            for numA in qA:
-                if numB > numA:
-                    answer += 1
-                    qA.popleft()
-                    break
+
+    for i in range(len(B)):
+        if B[i] > A[j]:
+            answer += 1
+            j += 1
 
     return answer
