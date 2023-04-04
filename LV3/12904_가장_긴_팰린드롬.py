@@ -25,24 +25,15 @@ def solution(s):
         str_s = ""
         for i in range(len(s) - 1, -1, -1):
             str_s += s[i]
-        print(s, str_s)
+        # print(s, str_s)
         if s == str_s:
             return True
         return False
 
-        ans1, ans2 = 0, 0
-
-        for i in range(len(s), -1, -1):
-            print("forward", s[:i])
-            if(isPalindrome(s[:i])):
-                ans1 = i
+    for diff in range(len(s), -1, -1):
+        for start_s in range((s)):
+            if(isPalindrome(s[start_s:start_s+diff])):
+                answer = max(answer, len(s[start_s:start_s+diff]))
                 break
-
-        for j in range(len(s)):
-            if(isPalindrome(s[j:len(s)])):
-                ans2 = len(s) - j
-                break
-
-        answer = max(ans1, ans2)
 
         return answer
